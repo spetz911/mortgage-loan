@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/ololo/js/prod.js" />
+        <item url="file://$PROJECT_DIR$/ololo/bower_components/backbone/test/model.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/ololo/js/prod.js" />
+      <root url="file://$PROJECT_DIR$/ololo/bower_components/backbone/test/model.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

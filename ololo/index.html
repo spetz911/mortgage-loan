@@ -1,0 +1,64 @@
+<html lang="en" data-framework="backbonejs">
+<head>
+    <meta charset="utf-8">
+    <title>Backbone.js • TodoMVC • OLOLO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+  <section id="wordsapp">
+    <header id="header">
+        <h1>todos</h1>
+        <input id="new-word" placeholder="What needs to be done?" autofocus>
+    </header>
+    <section id="main">
+        <input id="toggle-all" type="checkbox">
+        <label for="toggle-all">Mark all as complete</label>
+        <ul id="words-list"></ul>
+    </section>
+    <footer id="footer"></footer>
+  </section>
+
+    <hr />
+
+    <div id="highlighted-text">
+        <p class="para">This is a paragraph, yo.</p>
+        <p>And this here <em>is inside jaja jaja a paragraph</em>, about paragliders.</p>
+    </div>
+
+</div>
+
+
+<!-- SUCCESS!! -->
+
+<script type="text/template" id="item-template">
+    <div class="view">
+        <!--<input class="toggle" type="checkbox" <%= count ? 'checked' : '' %>>-->
+        <label><%- word %></label>
+        <button class="success">+1</button>
+        <strong><%- count %></strong>
+    </div>
+    <!--<input class="edit" value="<%- word %>">-->
+</script>
+
+
+ <!-- JS files  -->
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/backbone/backbone.js"></script>
+    <script src="bower_components/backbone.localStorage/backbone.localStorage.js"></script>
+    <script src="js/models/word.js"></script>
+    <script src="js/collections/words.js"></script>
+    <script src="js/views/word-view.js"></script>
+    <script src="js/views/app-view.js"></script>
+    <script src="js/routers/router.js"></script>
+    <script src="js/lib/highlight.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

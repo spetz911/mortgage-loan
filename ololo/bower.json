@@ -1,0 +1,11 @@
+{
+  "name": "skyline",
+  "version": "0.1.0",
+  "dependencies": {
+    "backbone": null,
+    "underscore": null,
+    "jquery": null,
+    "backbone.localStorage": null,
+    "bootstrap": null
+  }
+}
